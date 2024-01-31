@@ -14,7 +14,7 @@ const prodConfig = {
       name: "auth",
       filename: "remoteEntry.js",
       exposes: {
-        "./MarketingApp": "./src/bootstrap",
+        "./Authapp": "./src/bootstrap",
       },
       shared: packageJson.dependencies,
     }),
